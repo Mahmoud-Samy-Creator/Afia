@@ -1,0 +1,17 @@
+@media (min-width: 830px) {
+    .burger-icon {
+        display: none !important;
+    }
+}
+@media (max-width: 830px) {
+    nav {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+    .main-header {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+}

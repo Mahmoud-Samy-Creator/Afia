@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .about-content {
+        flex-direction: column;
+    }
+    .about-content > div {
+        width: 100%;
+    }
+    .about-content > div.image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .about-content > div.image img {
+        width: 80%;
+    }
+    .about-content > div:nth-child(2) {
+        text-align: center;
+    }
+    .about-content > div:nth-child(2) .icon {
+        display: none;
+    }
+    .about-content > div:nth-child(2) div.content span:last-child {
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .about h1 {
+        font-size: 8vw;
+    }
+}

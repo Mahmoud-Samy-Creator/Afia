@@ -1,0 +1,14 @@
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.speciality-container:hover img {
+  filter: brightness(0) invert(1);
+}
+@media (max-width: 767px) {
+  .departments h1 {
+    font-size: 6vw;
+  }
+}

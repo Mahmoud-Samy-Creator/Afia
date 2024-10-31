@@ -1,0 +1,60 @@
+.trust {
+  background-image: url('../assets/Trust/background.png');
+}
+
+@media (max-width: 991px) {
+  .trust > h1 {
+    font-size: 5vw;
+  }
+}
+
+.trust:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.649);
+}
+
+/* Updated accredit-container styles */
+.accredit-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .trust-content h1 {
+    font-size: 5vw;
+  }
+  .accredit-container {
+    grid-template-columns: 1fr;
+  }
+  .accredit-container img {
+    width: 250px;
+    display: block;
+  }
+  .accredit-container div {
+    margin-bottom: 50px;
+  }
+  .accredit-container div:last-child img.gahar {
+    width: 200px;
+  }
+}
+
+/* Make images responsive */
+.accredit-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.partners-accredit div:not(:last-of-type) img {
+  filter: brightness(0) invert(1);
+}

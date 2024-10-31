@@ -1,0 +1,8 @@
+@media (max-width: 1024px) {
+  .landing {
+    height: fit-content;
+  }
+  .landing > div:last-child {
+    margin-bottom: 50px;
+  }
+}

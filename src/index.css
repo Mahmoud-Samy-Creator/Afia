@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Sanchez", serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}

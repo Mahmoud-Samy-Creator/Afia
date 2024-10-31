@@ -1,0 +1,12 @@
+/* @media (min-width: 800px) {
+    .services .servicesCards .card:nth-child(2) {
+        position: relative !important;
+        bottom: 15px !important;
+    }
+} */
+
+@media (max-width: 767px) {
+    .services h1 {
+        font-size: 8vw;
+    }
+}

@@ -1,0 +1,16 @@
+@media (max-width: 880px) {
+    .landing-content {
+        display: block !important;
+    }
+    .landing-content .image {
+        display: none !important;
+    }
+    .landing-content .form,
+    .landing-content .image {
+        width: 100% !important;
+        text-align: center;
+    }
+    .landing-content .form > div p {
+        margin: 40px auto 40px !important;
+    }
+}
