@@ -35,7 +35,7 @@ const testimonials = [
 
 function Testimonials() {
   return(
-    <div className='testimonials bg-[#8eb9d8] bg-[#c2e5ff] py-[100px] px-[15px]'>
+    <div className='testimonials bg-[#c2e5ff7a] py-[100px] px-[15px]'>
       <h1 className="text-center text-black text-[35px] sm:text-[40px] lg:text-[64px] font-bold">What patient say about Afia</h1>
       <div className='testimonials-container container mx-auto grid mt-[90px]'>
         {
