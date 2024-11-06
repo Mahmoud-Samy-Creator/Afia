@@ -5,8 +5,9 @@ import Specialities from "../Specialities/Specialities";
 import KnowFounder from "../KnowFounder/KnowFounder";
 import Trust from "../Trust/Trust";
 import Testimonials from "../Testimonials/Testimonials";
-import KnowDoctors from "./KnowDoctors/KnowDoctors";
+import KnowDoctors from "../KnowDoctors/KnowDoctors";
 import Contact from "../Contact/Contact";
+import Certificates from "../Certificates/Certificates";
 import Footer from "../Footer/Footer";
 
 
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <KnowDoctors />
       <Contact />
+      <Certificates />
       <Footer />
     </div>
   )

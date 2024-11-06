@@ -10,12 +10,12 @@ import '@splidejs/react-splide/css/sea-green';
 
 // or only core styles
 import '@splidejs/react-splide/css/core';
-import  Doctor1 from '../../assets/KnowDoctors/D1.webp';
-import  Doctor2 from '../../assets/KnowDoctors/D2.webp';
-import  Doctor3 from '../../assets/KnowDoctors/D3.webp';
-import  Doctor4 from '../../assets/KnowDoctors/D4.webp';
-import  Doctor5 from '../../assets/KnowDoctors/D5.jpg';
-import  Doctor6 from '../../assets/KnowDoctors/D6.png';
+import  Doctor1 from '../assets/KnowDoctors/D1.webp';
+import  Doctor2 from '../assets/KnowDoctors/D2.webp';
+import  Doctor3 from '../assets/KnowDoctors/D3.webp';
+import  Doctor4 from '../assets/KnowDoctors/D4.webp';
+import  Doctor5 from '../assets/KnowDoctors/D5.jpg';
+import  Doctor6 from '../assets/KnowDoctors/D6.png';
 import './KnowDoctors.css';
 
 const slidesData = [

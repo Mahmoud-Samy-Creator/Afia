@@ -1,5 +1,5 @@
 .knowDoctors {
-  background-image: url('../../assets/KnowDoctors/hospitals.webp');
+  background-image: url('../assets/KnowDoctors/hospitals.webp');
 }
 .knowDoctors:after {
   content: "";
