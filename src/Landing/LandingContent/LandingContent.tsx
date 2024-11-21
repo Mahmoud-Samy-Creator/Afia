@@ -15,7 +15,7 @@ function LandingContent() {
                 <div>
                     <h1 className="text-white text-[55px] mt-[195px] mb-[10px] font-bold">Transform Your Health Journey</h1>
                     <p className='text-white text-[20px] mb-[50px] w-[90%]'>Get high quality medical care you deserve with a seamless journey in Egypt.</p>
-                    <form className="w-[90%]" onSubmit={(e) => {formSumbit(e)}}>
+                    <form className="w-[90%] mx-auto lg:ml-[0]" onSubmit={(e) => {formSumbit(e)}}>
                         <input className="w-full mb-[25px] p-[10px] rounded-[6px] outline-none" type="text" placeholder="Speciality" />
                         <textarea className="w-full p-[10px] h-[100px] outline-none resize-none rounded-[6px]" placeholder="Please describe your medical treatment or issue"></textarea>
                         <div className='w-full text-center'>

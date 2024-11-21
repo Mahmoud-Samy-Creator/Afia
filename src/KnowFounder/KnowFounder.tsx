@@ -17,10 +17,10 @@ function KnowFounder() {
 
 function KnowFounderDescription() {
     return(
-        <article className='text-[20px] w-[90%%] text-white'>
+        <article className='text-[20px] text-white'>
             Dr. Michel Nakla is the Founder of Afia companey,
             which can offer you the best medical services in the world.
-            He is a professional doctor who has been working in the medical field for more than 20 years.He has a lot of experience in the medical field and he is always ready to help you with your medical problems.
+            He is a professional doctor who has been working in the medical field for more than 20 years. <br></br>He has a lot of experience in the medical field and he is always ready to help you with your medical problems.
         </article>
     );
 }

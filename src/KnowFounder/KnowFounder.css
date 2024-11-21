@@ -43,3 +43,9 @@
     margin-left: 13%;
   }
 }
+@media (max-width: 500px) {
+  .founder .image img {
+    margin: 0px 0 220%;
+    margin-left: 13%;
+  }
+}

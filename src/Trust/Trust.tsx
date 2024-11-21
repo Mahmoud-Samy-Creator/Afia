@@ -3,6 +3,8 @@ import '@splidejs/react-splide/css';
 import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
+import { faCheckDouble } from '@fortawesome/free-solid-svg-icons';
+import { faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 import './Trust.css';
 
 import JCI from '../assets/Trust/accredits/JCI.png';
@@ -13,8 +15,8 @@ import SHARM from '../assets/Trust/accredits/sharm.png';
 import SOUDI from '../assets/Trust/accredits/soudi german.jpeg';
 import AlAMEDA from '../assets/Trust/accredits/Alameda group.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCertificate } from '@fortawesome/free-solid-svg-icons';
-
+// import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faHospital } from '@fortawesome/free-solid-svg-icons';
 
 
 function Trust() {
@@ -51,7 +53,7 @@ function Slider() {
             {/* Parterners credit */}
             <SplideSlide className=''>
                 <div className='partners-accredit w-[100%] px-[35px]'>
-                    <h3 className='text-white text-center mb-[30px]'>our partners accredited by</h3>
+                    <h3 className='text-white text-center text-[40px] mb-[30px]'>our partners accredited by</h3>
                     <div className="accredit-container">
                         <div className='content-center'>
                             <img className='w-[300px]' src={JCI} alt="JCI" />
@@ -60,14 +62,14 @@ function Slider() {
                             <img className='w-[300px]' src={TEMOS} alt="TEMOS" />
                         </div>
                         <div className='content-center gahar'>
-                            <img className='w-[160px]' src={GAHAR} alt="GAHAR" />
+                            <img className='w-[300px]' src={GAHAR} alt="GAHAR" />
                         </div>
                     </div>
                 </div>
             </SplideSlide>
             <SplideSlide className=''>
                 <div className='Hospital-accredit w-[100%] px-[35px]'>
-                    <h3 className='text-white text-center mb-[50px]'>our partnered hospitals</h3>
+                    <h3 className='text-white text-center text-[40px] mb-[50px]'>our partnered hospitals</h3>
                     <div className="accredit-container">
                         <div className='content-center'>
                             <img className='w-[260px] rounded-[16px]' src={AlAMEDA} alt="AlAMEDA" />
@@ -82,19 +84,22 @@ function Slider() {
                 </div>
             </SplideSlide>
             <SplideSlide className=''>
-                <div className='Hospital-accredit w-[100%] px-[35px]'>
+                <div className='Hospital-accredit w-[100%] text-[40px] px-[35px]'>
                     <h3 className='text-white text-center mb-[50px]'>our doctors are board certified with</h3>
                     <div className="accredit-container">
-                        <div className='content-center h-fit-content bg-[#3884ba] bg-white text-black h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
-                            <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/>
+                        <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
+                            <FontAwesomeIcon icon={faCheckDouble} className='text-[#FFC300] text-[35px]'/>
+                            {/* <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/> */}
                             <p>excellent <br></br>  track record</p>
                         </div>
-                        <div className='content-center h-fit-content bg-[#3884ba] bg-white text-black h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
-                            <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/>
+                        <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
+                            <FontAwesomeIcon icon={faFaceSmile} className='text-[#FFC300] text-[35px]' />
+                            {/* <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/> */}
                             <p>high patient  <br></br>  satisfaction</p>
                         </div>
-                        <div className='content-center h-fit-content bg-[#3884ba] bg-white text-black h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
-                            <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/>
+                        <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
+                            <FontAwesomeIcon icon={faHospital} className='text-[#FFC300] text-[35px]'/>
+                            {/* <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/> */}
                             <p>professors in <br></br> uni-hospitals</p>
                         </div>
                     </div>
