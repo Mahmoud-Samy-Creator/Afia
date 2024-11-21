@@ -1,6 +1,6 @@
 import Landing from "../Landing/Landing";
 import Services from "../Services/Services";
-import About from "../About/About";
+// import About from "../About/About";
 import Specialities from "../Specialities/Specialities";
 import KnowFounder from "../KnowFounder/KnowFounder";
 import Trust from "../Trust/Trust";
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Landing />
       <Services />
-      <About />
+      {/* <About /> */}
       <Specialities />
       <KnowFounder />
       <Trust />

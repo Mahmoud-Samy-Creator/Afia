@@ -21,7 +21,7 @@ function Trust() {
     return (
         <div className="trust pt-[60px] pb-[60px] relative bg-cover bg-no-repeat">
             <div className="trust-content min-h-[400px] max-h-[fit-content] container mx-[auto] relative z-[1]">
-                <h1 className="text-center text-white text-[64px] font-bold">Why you should trust Afia</h1>
+                <h1 className="text-center text-white text-[64px] font-bold">Why you Can trust Afia ?</h1>
                 <div className="trust-slider">
                     <Slider />
                 </div>

@@ -1,14 +1,41 @@
+const FooterLinks = [
+    {
+        title: 'About us',
+        link: '#'
+    },
+    {
+        title: 'Our services',
+        link: '#'
+    },
+    {
+        title: 'Departments',
+        link: '#'
+    },
+    {
+        title: 'Contact',
+        link: '#'
+    },
+    {
+        title: 'Testimonials',
+        link: '#'
+    },
+    {
+        title: 'Doctors',
+        link: '#'
+    },
+    {
+        title: 'Get free quote',
+        link: '#'
+    },
+]
+
 function PagesFooterSection() {
 return(
     <div className='pages'>
         <ul className='flex flex-col'>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">About us</a></li>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">Our services</a></li>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">Departments</a></li>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">Contact</a></li>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">Testimonials</a></li>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">Doctors</a></li>
-            <li className='mb-[5px] text-[#2c5e8d]'><a href="#">Get free quote</a></li>
+            {FooterLinks.map((link, index) => (
+                <li key={index} className='mb-[5px] text-white'><a href={link.link}>{link.title}</a></li>)
+            )}
         </ul>
     </div>
 );

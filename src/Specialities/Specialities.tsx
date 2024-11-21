@@ -79,9 +79,9 @@ const slidesData = [
 function Specialities() {
   return (
     <div className="departments container mx-auto mt-[100px] mb-[50px]">
-      <div className="department_container w-[85%] min-h-[400px] max-h-[fit-content] bg-[#8eb9d8] mr-[auto] ml-[auto] rounded-[25px] pt-[30px]">
+      <div className="department_container w-[85%] min-h-[400px] max-h-[fit-content] bg-primary-bgColor mr-[auto] ml-[auto] rounded-[25px] pt-[30px]">
         <h1 className="text-[white] text-[64px] font-bold text-center">
-          Departments
+          Multi Speciality Focus
         </h1>
         <div className="department-slider">
           <Slider />

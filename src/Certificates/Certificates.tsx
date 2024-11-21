@@ -28,7 +28,7 @@ const certificates = [
 
 function Certificates() {
   return (
-    <div className="online-certificates w-full h-fit-content mb-[40px]">
+    <div className="online-certificates w-full h-fit-content my-[70px]">
       <div className='online-certificates-container container mx-auto w-[90%] grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         {
           certificates.map((certificate) => {

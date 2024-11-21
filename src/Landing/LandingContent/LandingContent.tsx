@@ -13,12 +13,18 @@ function LandingContent() {
         <div className="landing-content container mx-auto h-[92%] flex">
             <div className="form w-[50%] h-[100%]">
                 <div>
-                    <h1 className="text-white text-[55px] mt-[195px] mb-[10px] font-bold">Transform Your Health Journey With Afia</h1>
+                    <h1 className="text-white text-[55px] mt-[195px] mb-[10px] font-bold">Transform Your Health Journey</h1>
                     <p className='text-white text-[20px] mb-[50px] w-[90%]'>Get high quality medical care you deserve with a seamless journey in Egypt.</p>
-                    <form className="" onSubmit={(e) => {formSumbit(e)}}>
-                        <input className="w-[90%] mb-[25px] p-[10px] rounded-[6px] outline-none" type="text" placeholder="Speciality" />
-                        <textarea className="w-[90%] p-[10px] h-[100px] outline-none resize-none rounded-[6px]" placeholder="Please describ your medical treatment or issue"></textarea>
-                        <input type="submit" className="w-[90%] p-[10px] mt-[25px] rounded-[6px] bg-[#274760] text-white cursor-pointer transition-[0.3s] hover:bg-[#41759e]" value="Get Free Quote" />
+                    <form className="w-[90%]" onSubmit={(e) => {formSumbit(e)}}>
+                        <input className="w-full mb-[25px] p-[10px] rounded-[6px] outline-none" type="text" placeholder="Speciality" />
+                        <textarea className="w-full p-[10px] h-[100px] outline-none resize-none rounded-[6px]" placeholder="Please describe your medical treatment or issue"></textarea>
+                        <div className='w-full text-center'>
+                            <input
+                                type="submit"
+                                className="w-[50%] p-[10px] mt-[25px] rounded-[30px] bg-white text-[#274760] cursor-pointer transition-[0.3s] hover:bg-[#41759e] hover:text-white"
+                                value="Get Free Quote"
+                            />
+                        </div>
                     </form>
                 </div>
             </div>

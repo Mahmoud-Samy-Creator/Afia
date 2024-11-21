@@ -1,14 +1,15 @@
 import './Services.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faUmbrellaBeach } from '@fortawesome/free-solid-svg-icons'
 // import { faHandshakeSimple } from '@fortawesome/free-solid-svg-icons'
-import { faSun } from '@fortawesome/free-solid-svg-icons'
+// import { faSun } from '@fortawesome/free-solid-svg-icons'
 
 const servicesCards = [
     {
         id: 1,
         header: "Quality",
-        text: "We are committed to providing the highest medical care quality.",
+        text: "World-class health care services provided by board-certified physicians in accredited health care facilities.",
         icon: <FontAwesomeIcon icon={faStar} />
     },
     // {
@@ -20,15 +21,16 @@ const servicesCards = [
     {
         id: 3,
         header: "Seamless journey",
-        text: "We are committed to get you the best exprience through journey in Egypt.",
-        icon: <FontAwesomeIcon icon={faSun} />
+        text: "Tailor-made medical packages and a dedicated healthcare coordinator to assist you every step of the way.",
+        // icon: <FontAwesomeIcon icon={faSun} />
+        icon: <FontAwesomeIcon icon={faUmbrellaBeach} />
     },
 ]
 
 function Services() {
     return (
         <div className="services pt-[60px] pb-[60px] container mx-auto" id="services">
-            <h1 className="text-center text-[#274761] text-[64px] font-bold">Our Services</h1>
+            <h1 className="text-center text-[#274761] text-[64px] font-bold">What Sets Afia A Part ?</h1>
             <div className="servicesCards grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-[10px] mt-[70px] justify-center place-items-center">
                 {servicesCards.map((card) => (
                     <div key={card.id} className="card content-center min-w-[250] max-w-[100%] w-[390px] h-[200px] rounded-[20px] border border-[#f2f2f2] shadow-[0px_2px_34px_-30px_#1565c0]">

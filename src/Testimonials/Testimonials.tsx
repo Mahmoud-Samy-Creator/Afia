@@ -40,7 +40,7 @@ function Testimonials() {
       <div className='testimonials-container container mx-auto grid mt-[90px]'>
         {
           testimonials.map(testimonial => (
-            <div key={testimonial.id} className='testimonial text-center bg-[#7ba4e0] rounded-[14px] h-[250px]'>
+            <div key={testimonial.id} className='testimonial text-center bg-primary-bgColor rounded-[14px] h-[250px]'>
               <img className='w-[100px] rounded-[50%] mx-auto mt-[-50px] border border-white border-[3px]' src={testimonial.photo} alt={testimonial.name} />
               <h3 className='text-[25px] text-white mt-[16px] font-bold'>{testimonial.name}</h3>
               <p className='text-white text-[25px] mt-[10px] w-[80%] mx-auto'>{testimonial.pov}</p>
