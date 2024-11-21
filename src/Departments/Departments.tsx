@@ -73,11 +73,17 @@ function Departments() {
         </h1>
         <div className="department-section mx-auto">
           {slidesData.map((slide, index) => (
-            <div key={index} className="speciality-container text-center cursor-pointer bg-white w-[250px] h-[220px] rounded-[15px] content-center transition transition-[0.2s] hover:bg-[#317ac4] hover:text-white">
+            <div key={index} className="speciality-container text-center cursor-pointer w-[250px] h-[220px] rounded-[15px] content-center transition transition-[0.2s]">
               <img className="speciality w-[100px] text-center mx-[auto]" src={slide.imgSrc} alt={slide.altText} />
-              <span className="block text-[20px] w-[60%] text-center mx-[auto] mt-[17px]">{slide.label}</span>
+              <span className="block text-[20px] text-white w-[60%] text-center mx-[auto] mt-[17px]">{slide.label}</span>
             </div>
           ))}
+        </div>
+        <div className='text-white mx-auto w-fit-content text-center text-[35px] mt-[40px]'>
+          <span className='block'>Don't see what you're looking for ?</span>
+          <a href="#" className="color-[#274760] text-[18px] text-[white] bg-[#274760] px-[12px] rounded-[5px] py-[5px] transition transition-[0.3s] hover:text-[white] hover:bg-[#1565c0] ">
+            Contact Us
+          </a>
         </div>
       </div>
     </div>

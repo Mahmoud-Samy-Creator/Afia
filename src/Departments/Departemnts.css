@@ -5,8 +5,11 @@
   justify-items: center; /* Centers cards horizontally */
   align-items: center; /* Centers cards vertically */
 }
-
+/* 
 .speciality-container:hover img {
+  filter: brightness(0) invert(1);
+} */
+.speciality-container img {
   filter: brightness(0) invert(1);
 }
 @media (max-width: 767px) {
