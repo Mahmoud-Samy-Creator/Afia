@@ -1,7 +1,8 @@
 import Landing from "../Landing/Landing";
 import Services from "../Services/Services";
 // import About from "../About/About";
-import Specialities from "../Specialities/Specialities";
+// import Specialities from "../Specialities/Specialities";
+import Departments from "../Departments/Departments";
 import KnowFounder from "../KnowFounder/KnowFounder";
 import Trust from "../Trust/Trust";
 import Testimonials from "../Testimonials/Testimonials";
@@ -18,7 +19,8 @@ function App() {
       <Landing />
       <Services />
       {/* <About /> */}
-      <Specialities />
+      {/* <Specialities /> */}
+      <Departments />
       <KnowFounder />
       <Trust />
       <Testimonials />

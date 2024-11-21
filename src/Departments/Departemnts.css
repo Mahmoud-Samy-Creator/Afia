@@ -1,0 +1,16 @@
+.department-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  justify-items: center; /* Centers cards horizontally */
+  align-items: center; /* Centers cards vertically */
+}
+
+.speciality-container:hover img {
+  filter: brightness(0) invert(1);
+}
+@media (max-width: 767px) {
+  .departments h1 {
+    font-size: 6vw;
+  }
+}
