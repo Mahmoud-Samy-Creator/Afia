@@ -4,7 +4,8 @@ import Services from "../Services/Services";
 // import Specialities from "../Specialities/Specialities";
 import Departments from "../Departments/Departments";
 import KnowFounder from "../KnowFounder/KnowFounder";
-import Trust from "../Trust/Trust";
+// import Trust from "../Trust/Trust";
+import TrustSection from "../TrustSection/TrustSection";
 import Testimonials from "../Testimonials/Testimonials";
 import KnowDoctors from "../KnowDoctors/KnowDoctors";
 import Contact from "../Contact/Contact";
@@ -22,7 +23,8 @@ function App() {
       {/* <Specialities /> */}
       <Departments />
       <KnowFounder />
-      <Trust />
+      {/* <Trust /> */}
+      <TrustSection />
       <Testimonials />
       <KnowDoctors />
       <Contact />
