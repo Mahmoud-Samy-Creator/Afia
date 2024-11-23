@@ -81,7 +81,7 @@ function Departments() {
         </div>
         <div className='text-white mx-auto w-fit-content text-center text-[35px] mt-[40px]'>
           <span className='block'>Don't see what you're looking for ?</span>
-          <a href="#" className="color-[#274760] text-[18px] text-[white] bg-[#274760] px-[12px] rounded-[5px] py-[5px] transition transition-[0.3s] hover:text-[white] hover:bg-[#1565c0] ">
+          <a href="#" className="text-[#274760] text-[20px] bg-white px-[12px] rounded-[15px] py-[5px] transition transition-[0.3s] hover:text-[white] hover:bg-[#1565c0] ">
             Contact Us
           </a>
         </div>

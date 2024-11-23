@@ -24,11 +24,12 @@ function KnowFounderDescription() {
         </article>
     );
 }
-
+X
 function KnowFounderImage() {
     return(
         <div className="image w-[350px] w-fit-content relative mt-[-300px] mr-[60px]">
-            <img className='w-[350px] h-[350px] mx-[auto] rounded-[50%] bg-white border border-[5px] border-primary-bgColor' src={doctorMichle} alt="" />
+            {/* <img className='w-[350px] h-[350px] mx-[auto] rounded-[50%] bg-white border border-[5px] border-primary-bgColor' src={doctorMichle} alt="" /> */}
+            <img className='w-[350px] h-[350px] mx-[auto] rounded-[50%] bg-white' src={doctorMichle} alt="" />
         </div>
     );
 }

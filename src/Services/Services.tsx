@@ -30,7 +30,7 @@ const servicesCards = [
 function Services() {
     return (
         <div className="services pt-[60px] pb-[60px] container mx-auto" id="services">
-            <h1 className="text-center text-[#274761] text-[64px] font-bold">What Sets Afia A Part ?</h1>
+            <h1 className="text-center text-[#274761] text-[64px] font-bold">What Sets Afia APart ?</h1>
             <div className="servicesCards grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-[10px] mt-[70px] justify-center place-items-center">
                 {servicesCards.map((card) => (
                     <div key={card.id} className="card content-center min-w-[250] max-w-[100%] w-[390px] h-[200px] rounded-[20px] border border-[#f2f2f2] shadow-[0px_2px_34px_-30px_#1565c0]">

@@ -22,11 +22,11 @@ function App() {
       {/* <About /> */}
       {/* <Specialities /> */}
       <Departments />
-      <KnowFounder />
       {/* <Trust /> */}
       <TrustSection />
       <Testimonials />
       <KnowDoctors />
+      <KnowFounder />
       <Contact />
       <Certificates />
       <Footer />

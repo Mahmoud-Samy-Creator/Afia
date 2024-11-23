@@ -55,6 +55,6 @@
   margin: 0 auto;
 }
 
-.partners-accredit div:not(:last-of-type) img {
+/* .partners-accredit div:not(:last-of-type) img {
   filter: brightness(0) invert(1);
-}
+} */

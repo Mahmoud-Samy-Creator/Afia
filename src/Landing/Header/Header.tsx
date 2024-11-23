@@ -34,7 +34,7 @@ function Header() {
                             <a key={button.id} href={button.link} className='content-center'><li className="color-[#274760] mr-[25px] text-[20px] text-white">{button.name}</li></a>
                         ))
                     }               
-                    <a href="#"><li className="color-[#274760] text-[18px] text-[white] bg-[#274760] px-[12px] rounded-[5px] py-[5px] transition transition-[0.3s] hover:text-[white] hover:bg-[#1565c0] ">get free quote</li></a>
+                    <a href="#"><li className="text-[#274760] text-[18px] bg-white px-[12px] rounded-[15px] py-[5px] transition transition-[0.3s] hover:text-[white] hover:bg-[#1565c0] ">get free quote</li></a>
                 </ul>
             </nav>
             {drawer && <Drawer handleCloseDrawer={handleCloseDrawer} />}
