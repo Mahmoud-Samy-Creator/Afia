@@ -32,7 +32,7 @@ export default Trust;
 function Accreditation() {
   return(
     <div className='partners-accredit w-[90%] mx-auto px-[35px] mt-[50px] bg-primary-bgColor py-[40px] rounded-[25px]'>
-      <h3 className='text-white text-center text-[25px] lg:text-[40px] mb-[30px]'>Our Partners Accredited By</h3>
+      <h3 className='text-white text-center text-[25px] lg:text-[40px] mb-[30px]'>Partners Accredited By</h3>
       <div className="accredit-container">
           <div className='content-center w-[280px] h-[280px] text-center content-center bg-white rounded-[15px]'>
               <img className='w-[200px] h-[200px]' src={JCI} alt="JCI" />
@@ -50,7 +50,7 @@ function Accreditation() {
 function Hospitals() {
   return(
     <div className='Hospital-accredit w-[90%] mx-auto px-[35px] mt-[50px] bg-primary-bgColor py-[40px] rounded-[25px]'>
-        <h3 className='text-white text-center text-[25px] lg:text-[40px] mb-[30px]'>Our Partnered Hospitals</h3>
+        <h3 className='text-white text-center text-[25px] lg:text-[40px] mb-[30px]'>Partnered Hospitals</h3>
         <div className="accredit-container">
             <div className='content-center bg-white w-[280px] h-[280px] text-center content-center rounded-[15px]'>
                 <img className='w-[260px] rounded-[16px]' src={AlAMEDA} alt="AlAMEDA" />
@@ -68,7 +68,7 @@ function Hospitals() {
 function DoctorTrust() {
   return (
     <div className='Hospital-accredit min-h-[400px] h-fit-content w-[90%] mx-auto text-[40px] px-[35px] mt-[50px] bg-primary-bgColor py-[15px] rounded-[25px]'>
-      <h3 className='text-white text-center text-[25px] lg:text-[40px]'>Our Doctors Are Board Certified With</h3>
+      <h3 className='text-white text-center text-[25px] lg:text-[40px]'>Doctors Are Board Certified With</h3>
       <div className="accredit-container mt-[55px]">
           <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
               <FontAwesomeIcon icon={faCheckDouble} className='text-[#FFC300] text-[60px]'/>
