@@ -24,7 +24,7 @@ function KnowFounderDescription() {
         </article>
     );
 }
-X
+
 function KnowFounderImage() {
     return(
         <div className="image w-[350px] w-fit-content relative mt-[-300px] mr-[60px]">
