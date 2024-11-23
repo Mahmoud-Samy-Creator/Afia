@@ -19,8 +19,8 @@ function Trust() {
                 <h1 className="text-center text-primary-bgColor text-[64px] font-bold">Why you Can trust Afia ?</h1>
                 <div className="trust-slider">
                   <Accreditation />
-                  <Hospitals />
                   <DoctorTrust />
+                  <Hospitals />
                 </div>
             </div>
         </div>
@@ -68,20 +68,20 @@ function Hospitals() {
 function DoctorTrust() {
   return (
     <div className='Hospital-accredit min-h-[400px] h-fit-content w-[90%] mx-auto text-[40px] px-[35px] mt-[50px] bg-primary-bgColor py-[15px] rounded-[25px]'>
-      <h3 className='text-white text-center text-[25px] lg:text-[40px]'>Doctors Are Board Certified With</h3>
+      <h3 className='text-white text-center text-[25px] mt-[30px] lg:text-[40px]'>Doctors Are Board Certified With</h3>
       <div className="accredit-container mt-[55px]">
           <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
-              <FontAwesomeIcon icon={faCheckDouble} className='text-[#FFC300] text-[60px]'/>
+              <FontAwesomeIcon icon={faCheckDouble} className='text-white text-[60px] mb-[15px]'/>
               {/* <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/> */}
               <p className='text-[30px]'>excellent <br></br>  track record</p>
           </div>
           <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
-              <FontAwesomeIcon icon={faFaceSmile} className='text-[#FFC300] text-[60px]' />
+              <FontAwesomeIcon icon={faFaceSmile} className='text-white text-[60px] mb-[15px]' />
               {/* <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/> */}
               <p className='text-[30px]'>high patient  <br></br>  satisfaction</p>
           </div>
           <div className='content-center h-fit-content text-white h-[150px] w-[300px] text-center rounded-[14px] font-bold'>
-              <FontAwesomeIcon icon={faHospital} className='text-[#FFC300] text-[60px]'/>
+              <FontAwesomeIcon icon={faHospital} className='text-white text-[60px] mb-[15px]'/>
               {/* <FontAwesomeIcon icon={faCertificate} className='text-[#FFC300] text-[35px]'/> */}
               <p className='text-[30px]'>professors in <br></br> uni-hospitals</p>
           </div>
