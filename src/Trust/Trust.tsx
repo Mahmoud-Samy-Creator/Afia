@@ -53,7 +53,7 @@ function Slider() {
             {/* Parterners credit */}
             <SplideSlide className=''>
                 <div className='partners-accredit w-[100%] px-[35px]'>
-                    <h3 className='text-white text-center text-[40px] mb-[30px]'>our partners accredited by</h3>
+                    <h3 className='text-white text-center text-[40px] mb-[30px]'>our partners are accredited by</h3>
                     <div className="accredit-container">
                         <div className='content-center'>
                             <img className='w-[300px]' src={JCI} alt="JCI" />

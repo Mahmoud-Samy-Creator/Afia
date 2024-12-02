@@ -35,8 +35,8 @@ const testimonials = [
 
 function Testimonials() {
   return(
-    <div className='testimonials bg-primary-bgColor py-[100px] px-[15px]'>
-      <h1 className="text-center text-white text-[35px] sm:text-[40px] lg:text-[64px] font-bold">What patient say about Afia</h1>
+    <div className='testimonials bg-primary-bgColor py-[100px] px-[15px] mb-[200px]'>
+      <h1 className="text-center text-white text-[35px] sm:text-[40px] lg:text-[64px] font-bold">What patients say about Afia</h1>
       <div className='testimonials-container container mx-auto grid mt-[90px]'>
         {
           testimonials.map(testimonial => (

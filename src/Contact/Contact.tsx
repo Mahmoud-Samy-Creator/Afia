@@ -6,7 +6,7 @@ import './contact.css';
 
 function Contact() {
     return (
-        <div className="contact min-h-[500px] max-h-[fit-content] bg-[#fafdff] my-[50px] content-center" id="contact">
+        <div className="contact min-h-[500px] max-h-[fit-content] bg-primary-bgColor my-[50px] content-center" id="contact">
             <div className="contact-info container mx-auto flex justify-between">
                 <ContactCard />
                 <ContactDescription />

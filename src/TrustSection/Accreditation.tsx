@@ -5,7 +5,7 @@ import GAHAR from '../assets/Trust/accredits/GAHAR.png';
 function Accreditation() {
   return(
     <div className='partners-accredit w-[90%] mx-auto px-[35px] mt-[50px] bg-primary-bgColor py-[40px] rounded-[25px]'>
-      <h3 className='text-white text-center text-[25px] lg:text-[40px] mb-[30px]'>Partners Accredited By</h3>
+      <h3 className='text-white text-center text-[25px] lg:text-[40px] mb-[30px]'>Partners are Accredited By</h3>
       <div className="accredit-container">
           <div className='content-center w-[280px] h-[280px] text-center content-center rounded-[15px]'>
               <img className='' src={JCI} alt="JCI" />
