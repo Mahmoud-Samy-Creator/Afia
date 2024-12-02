@@ -35,13 +35,17 @@ const testimonials = [
 
 function Testimonials() {
   return(
-    <div className='testimonials bg-[#c2e5ff7a] py-[100px] px-[15px]'>
-      <h1 className="text-center text-black text-[35px] sm:text-[40px] lg:text-[64px] font-bold">What patient say about Afia</h1>
+    <div className='testimonials bg-primary-bgColor py-[100px] px-[15px]'>
+      <h1 className="text-center text-white text-[35px] sm:text-[40px] lg:text-[64px] font-bold">What patient say about Afia</h1>
       <div className='testimonials-container container mx-auto grid mt-[90px]'>
         {
           testimonials.map(testimonial => (
-            <div key={testimonial.id} className='testimonial text-center bg-primary-bgColor rounded-[14px] h-[250px] mb-[50px] lg:mb-[0]'>
-              <img className='w-[100px] rounded-[50%] mx-auto mt-[-50px] border border-white border-[3px]' src={testimonial.photo} alt={testimonial.name} />
+            <div key={testimonial.id} className='testimonial text-center bg-[#6a8bc5] rounded-[14px] h-[250px] mb-[50px] lg:mb-[0]'>
+              <img
+                className='w-[100px] rounded-[50%] mx-auto mt-[-50px] border border-white border-[3px]'
+                src={testimonial.photo}
+                alt={testimonial.name}
+              />
               <h3 className='text-[25px] text-white mt-[16px] font-bold'>{testimonial.name}</h3>
               <p className='text-white text-[25px] mt-[10px] w-[80%] mx-auto'>{testimonial.pov}</p>
             </div>

@@ -33,14 +33,14 @@ function Services() {
             <h1 className="text-center text-[#274761] text-[64px] font-bold">What Sets Afia APart ?</h1>
             <div className="servicesCards grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-[10px] mt-[70px] justify-center place-items-center">
                 {servicesCards.map((card) => (
-                    <div key={card.id} className="card content-center min-w-[250] max-w-[100%] w-[450px] h-[240px] rounded-[20px] border border-[#f2f2f2] shadow-[0px_2px_34px_-30px_#1565c0]">
-                        <header className='text-[#274761] text-[25px] text-center font-bold'>
+                    <div key={card.id} className="card content-center min-w-[250] max-w-[100%] w-[550px] h-[300px] rounded-[20px] border border-[#f2f2f2] shadow-[0px_2px_34px_-30px_#1565c0]">
+                        <header className='text-[#274761] text-[30px] text-center font-bold'>
                             <div className='inline-block mr-[10px] w-[40px] h-[40px] bg-[#3293db] text-[white] text-[20px] text-center content-center rounded-[50%]'>
                                 {card.icon}
                             </div>
                             {card.header}
                         </header>
-                        <p className='text-[#274760] text-center w-[75%] ml-auto mr-auto mt-[35px]'>
+                        <p className='text-[#274760] text-center text-[25px] w-[75%] ml-auto mr-auto mt-[35px]'>
                             {card.text}
                         </p>
                     </div>

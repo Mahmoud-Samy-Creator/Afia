@@ -16,7 +16,7 @@ import  Doctor3 from '../assets/KnowDoctors/D3.webp';
 import  Doctor4 from '../assets/KnowDoctors/D4.webp';
 import  Doctor5 from '../assets/KnowDoctors/D5.jpg';
 import  Doctor6 from '../assets/KnowDoctors/D6.png';
-import './KnowDoctors.css';
+// import './KnowDoctors.css';
 
 const slidesData = [
   {
@@ -65,7 +65,7 @@ const slidesData = [
 
 function KnowFounder() {
   return (
-    <div className="knowDoctors mb-[50px] w-[100%] relative bg-cover bg-no-repeat">
+    <div className="knowDoctors mb-[50px] w-[100%] relative bg-primary-bgColor">
       <div className="knowDoctors-container container mx-auto w-[100%] min-h-[600px] max-h-[fit-content] mr-[auto] ml-[auto] rounded-[25px] pt-[30px] relative z-[1] content-center">
         <h1 className="text-[white] text-[64px] font-bold text-center">
           Know Your Doctors
@@ -87,7 +87,7 @@ function Slider() {
         type: 'loop',
         perPage: 4,
         perMove: 1,
-        gap: '2rem',
+        gap: '9rem',
         autoplay: true,
         interval: 3000,
         pauseOnHover: true,

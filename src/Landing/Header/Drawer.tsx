@@ -22,7 +22,7 @@ function Drawer({ handleCloseDrawer }: DrawerProps) {
                           <a key={button.id}><li className="color-[#274760] mt-[20px] text-[20px] text-left w-[80%] ml-[auto] mr-[auto]">{button.name}</li></a>
                       ))
                   }               
-                  <a><li className="color-[#274760] text-[20px] mt-[20px] text-left w-[80%] ml-[auto] mr-[auto]">Get Free Quote</li></a>
+                  <a><li className="color-[#274760] text-[20px] mt-[20px] text-left w-[80%] ml-[auto] mr-[auto]">get free quote</li></a>
               </ul>
           </div>
       </div>
