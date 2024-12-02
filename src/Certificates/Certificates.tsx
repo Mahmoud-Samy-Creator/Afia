@@ -34,7 +34,7 @@ function Certificates() {
           certificates.map((certificate) => {
             return (
               <div key={certificate.id} className='certificate-card flex items-center justify-center m-[10px]'>
-                <img src={certificate.imgSrc} alt={certificate.name} className='h-[150px]' />
+                <img src={certificate.imgSrc} alt={certificate.name} className='h-[120px]' />
               </div>
             )
           })

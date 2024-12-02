@@ -1,9 +1,5 @@
 const FooterLinks = [
     {
-        title: 'About us',
-        link: '#'
-    },
-    {
         title: 'Our services',
         link: '#'
     },
