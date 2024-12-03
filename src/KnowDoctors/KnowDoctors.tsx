@@ -19,9 +19,10 @@ function KnowFounder() {
   return (
     <div className="knowDoctors mb-[50px] w-[100%] relative bg-primary-bgColor">
       <div className="knowDoctors-container container mx-auto w-[100%] min-h-[600px] max-h-[fit-content] mr-[auto] ml-[auto] rounded-[25px] pt-[30px] relative z-[1] content-center">
-        <h1 className="text-[white] text-[64px] font-bold text-center">
+      <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center">
           Know Your Doctors
-        </h1>
+      </h1>
+
         <div>
           <Slider />
         </div>

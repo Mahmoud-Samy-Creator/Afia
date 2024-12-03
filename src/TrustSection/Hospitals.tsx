@@ -87,7 +87,7 @@ function Slider() {
     >
       {hospitalsCards.map((card, index) => (
         <SplideSlide key={index}>
-          <div className='content-center bg-white w-[280px] h-[280px] text-center content-center rounded-[15px]'>
+          <div className='content-center bg-white w-[240px] h-[260px] text-center content-center rounded-[15px]'>
             <img className='w-[260px] rounded-[16px]' src={card.imgSrc} alt={card.altText} />
           </div>
         </SplideSlide>
