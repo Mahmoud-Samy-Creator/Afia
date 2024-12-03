@@ -1,4 +1,5 @@
-import doctor from '../../assets/doctor.png';
+// import doctor from '../../assets/doctor.png';
+import patient from '../../assets/patient.jpg';
 import './LandingContent.css';
 
 
@@ -10,7 +11,7 @@ function LandingContent() {
     }
 
     return (
-        <div className="landing-content container mx-auto h-[92%] flex">
+        <div className="landing-content container mx-auto h-[92%] flex items-center">
             <div className="form w-[50%] h-[100%]">
                 <div>
                     <h1 className="text-white text-[55px] mt-[195px] mb-[10px] font-bold">Transform Your Health Journey</h1>
@@ -28,8 +29,8 @@ function LandingContent() {
                     </form>
                 </div>
             </div>
-            <div className="image h-[100%] flex justify-center items-center w-[50%]">
-                <img className=' h-[100%]' src={doctor} alt="doctor"></img>
+            <div className="image h-[60%] flex justify-center items-center w-[50%] rounded-[25px] overflow-hidden shadow-lg">
+                <img className="h-[100%] w-full" src={patient} alt="doctor"></img>
             </div>
         </div>
     );

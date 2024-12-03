@@ -10,58 +10,10 @@ import '@splidejs/react-splide/css/sea-green';
 
 // or only core styles
 import '@splidejs/react-splide/css/core';
-import  Doctor1 from '../assets/KnowDoctors/D1.webp';
-import  Doctor2 from '../assets/KnowDoctors/D2.webp';
-import  Doctor3 from '../assets/KnowDoctors/D3.webp';
-import  Doctor4 from '../assets/KnowDoctors/D4.webp';
-import  Doctor5 from '../assets/KnowDoctors/D5.jpg';
-import  Doctor6 from '../assets/KnowDoctors/D6.png';
-// import './KnowDoctors.css';
+import { DoctorsSlidesData } from '../data';
+import DoctorCard from "./DoctorCard";
 
-const slidesData = [
-  {
-    id: 1,
-    name: "Doctor",
-    specialist: "Department",
-    imgSrc: Doctor1,
-    altText: "",
-  },
-  {
-    id: 3,
-    name: "Doctor",
-    specialist: "Department",
-    imgSrc: Doctor2,
-    altText: "",
-  },
-  {
-    id: 4,
-    name: "Doctor",
-    specialist: "Department",
-    imgSrc: Doctor3,
-    altText: "",
-  },
-  {
-    id: 5,
-    name: "Doctor",
-    specialist: "Department",
-    imgSrc: Doctor4,
-    altText: "",
-  },
-  {
-    id: 6,
-    name: "Doctor",
-    specialist: "Department",
-    imgSrc: Doctor5,
-    altText: "",
-  },
-  {
-    id: 7,
-    name: "Doctor",
-    specialist: "Department",
-    imgSrc: Doctor6,
-    altText: "",
-  },
-]
+
 
 function KnowFounder() {
   return (
@@ -100,12 +52,9 @@ function Slider() {
       }}
       aria-label="My Favorite Images"
     >
-      {slidesData.map((slide, index) => (
+      {DoctorsSlidesData.map((slide, index) => (
         <SplideSlide key={index}>
-          <div className="text-center cursor-pointer bg-[white] w-[250px] h-[300px] rounded-[15px] content-center overflow-hidden relative">
-            <img className="w-[100p%] h[100%] text-center mx-[auto]" src={slide.imgSrc} alt={slide.altText} />
-            <span className="block text-[20px] w-[100%] h-[50px] text-white bg-[#00000080] text-center content-center mx-[auto] mt-[17px] absolute bottom-[0px] w-[100%]">{slide.name}</span>
-          </div>
+          <DoctorCard imgSrc={slide.imgSrc} altText={slide.altText} name={slide.name} />
         </SplideSlide>
       ))}
     </Splide>

@@ -1,26 +1,8 @@
-const contactButtons = [
-  {
-    id: 1,
-    content: "+20102548631"
-  },
-  {
-    id: 2,
-    content: "Afia@email.com"
-  },
-  {
-    id: 3,
-    content: "WHATSAPP"
-  },
-  {
-    id: 4,
-    content: "FACEBOOK"
-  },
-]
-
+import { contactButtons } from "../../data";
 
 function ContactWays() {
   return(
-      <div className="contact-ways w-[350px] content-center">
+      <div className="contact-ways content-center">
         {
           contactButtons.map(button =>
             <button

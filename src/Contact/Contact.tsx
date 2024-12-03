@@ -1,13 +1,11 @@
 import ContactCard from "./ContactSections/ContactCard";
 import ContactDescription from "./ContactSections/ContactDescription";
 import ContactWays from "./ContactSections/ContactWays";
-import './contact.css';
-
 
 function Contact() {
     return (
-        <div className="contact min-h-[500px] max-h-[fit-content] bg-primary-bgColor my-[50px] content-center" id="contact">
-            <div className="contact-info container mx-auto flex justify-between">
+        <div className="contact bg-primary-bgColor grid grid-cols-[repeat(auto-fit,_minmax(350px,_1fr))] gap-[10px]" id="contact">
+            <div className="contact-info container mx-auto flex flex-col lg:justify-between lg:flex-row flex-wrap">
                 <ContactCard />
                 <ContactDescription />
                 <ContactWays />
@@ -15,8 +13,5 @@ function Contact() {
         </div>
     );
 }
-
-
-
 
 export default Contact;
